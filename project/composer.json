@@ -1,0 +1,23 @@
+{
+    "name": "app/project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Project\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "app/library": "@dev"
+    },
+    "repositories": {
+        "library": {
+            "type": "path",
+            "url": "../library"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0"
+    }
+}

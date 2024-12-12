@@ -1,0 +1,13 @@
+{
+    "name": "app/library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Library\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3"
+    }
+}
